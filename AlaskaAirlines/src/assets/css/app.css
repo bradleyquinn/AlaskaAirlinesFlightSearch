@@ -1,0 +1,34 @@
+﻿/* Import Libraries */
+/* General Colors */
+.bodyPadding {
+  padding: 4%;
+}
+.bodyPadding .verticalAlign {
+  margin-top: .4%;
+}
+.bodyPadding .noMarginLeft {
+  margin-left: 0px !important;
+}
+.noRowMargin {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.centerAlign {
+  text-align: center;
+}
+.alaskaLogo {
+  max-width: 50%;
+}
+.noRowMargin {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.centerAlign {
+  text-align: center;
+}
+.background {
+  background-color: #01426A;
+}
+.background .authorText {
+  color: #ffffff;
+}

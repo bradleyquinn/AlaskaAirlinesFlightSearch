@@ -1,0 +1,18 @@
+﻿[
+ {
+   "Code": "SEA",
+   "Name": "Seattle WA (SEA-Seattle/Tacoma Intl.)"
+ },
+ {
+   "Code": "LAS",
+   "Name": "Las Vegas NV (LAS-McCarran Intl.)"
+ },
+ {
+   "Code": "LAX",
+   "Name": "Los Angeles CA (LAX-Los Angeles Intl.)"
+ },
+ {
+   "Code": "PHX",
+   "Name": "Phoenix AZ (PHX-Sky Harbor Intl.)"
+ }
+]

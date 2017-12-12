@@ -1,0 +1,6 @@
+[submodule "AlaskaAirlines"]
+	path = AlaskaAirlines
+	url = C:/Program Files/Git/AlaskaAirlines
+[submodule "AlaskaAirlinesWebAPI"]
+	path = AlaskaAirlinesWebAPI
+	url = C:/Program Files/Git/AlaskaAirlinesWebAPI

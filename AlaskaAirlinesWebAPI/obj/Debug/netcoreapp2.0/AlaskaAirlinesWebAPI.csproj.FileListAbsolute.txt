@@ -1,0 +1,11 @@
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\bin\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.deps.json
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\bin\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.runtimeconfig.json
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\bin\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.runtimeconfig.dev.json
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\bin\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.dll
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\bin\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.pdb
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\obj\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.csprojResolveAssemblyReference.cache
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\obj\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.csproj.CoreCompileInputs.cache
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\obj\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.AssemblyInfoInputs.cache
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\obj\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.AssemblyInfo.cs
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\obj\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.dll
+C:\Development\iTrellis\AA\Alaska Airlines\AlaskaAirlinesWebAPI\obj\Debug\netcoreapp2.0\AlaskaAirlinesWebAPI.pdb
