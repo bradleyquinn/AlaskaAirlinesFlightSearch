@@ -64,13 +64,7 @@ export class FlightSearchComponent implements OnInit {
 		switch (type) {
 			case "FlightNumber":
 				this.currentSearchSelection = this.currentSearchSelection.sort((departsA, departsB) => {
-					if (departsA.FlightNumber < departsB.FlightNumber) {
-						return -1;
-					} else if (departsA.FlightNumber > departsB.FlightNumber) {
-						return 1;
-					} else {
-						return 0;
-					}
+					return this.sortingWorker(departsA.FlightNumber, departsB.FlightNumber);
 				})
 				break;
 			case "Departs":
@@ -82,13 +76,7 @@ export class FlightSearchComponent implements OnInit {
 					departingA.setHours(departsA.Departs.substr(0, 1), departsA.Departs.substr(2, 2));
 					departingB.setHours(departsB.Departs.substr(0, 1), departsB.Departs.substr(2, 2));
 
-					if (departingA < departingB) {
-						return -1;
-					} else if (departingA > departingB) {
-						return 1;
-					} else {
-						return 0;
-					}
+					return this.sortingWorker(departingA, departingB);
 				})
 				break;
 			case "Arrives":
@@ -99,37 +87,29 @@ export class FlightSearchComponent implements OnInit {
 					arrivingA.setHours(departsA.Arrives.substr(0, 1), departsA.Arrives.substr(2, 2));
 					arrivingB.setHours(departsB.Arrives.substr(0, 1), departsB.Arrives.substr(2, 2));
 
-					if (arrivingA < arrivingB) {
-						return -1;
-					} else if (arrivingA > arrivingB) {
-						return 1;
-					} else {
-						return 0;
-					}
+					return this.sortingWorker(arrivingA, arrivingB);
 				})
 				break;
 			case "MainCabinPrice":
 				this.currentSearchSelection = this.currentSearchSelection.sort((departsA, departsB) => {
-					if (departsA.MainCabinPrice < departsB.MainCabinPrice) {
-						return -1;
-					} else if (departsA.MainCabinPrice > departsB.MainCabinPrice) {
-						return 1;
-					} else {
-						return 0;
-					}
+					return this.sortingWorker(departsA.MainCabinPrice, departsB.MainCabinPrice);
 				})
 				break;
 			case "FirstClassPrice":
 				this.currentSearchSelection = this.currentSearchSelection.sort((departsA, departsB) => {
-					if (departsA.FirstClassPrice < departsB.FirstClassPrice) {
-						return -1;
-					} else if (departsA.FirstClassPrice > departsB.FirstClassPrice) {
-						return 1;
-					} else {
-						return 0;
-					}
+					return this.sortingWorker(departsA.FirstClassPrice, departsB.FirstClassPrice);
 				})
 				break;
+		}
+	}
+
+	private sortingWorker(propertyA: any, propertyB: any): number {
+		if (propertyA < propertyB) {
+			return -1;
+		} else if (propertyA > propertyB) {
+			return 1;
+		} else {
+			return 0;
 		}
 	}
 }
